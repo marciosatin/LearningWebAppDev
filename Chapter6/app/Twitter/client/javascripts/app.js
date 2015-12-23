@@ -2,7 +2,7 @@ var main = function () {
     "use strict";
 
     var insertCountsIntoDOM = function (counts) {
-        $("p").text("awesome: " + counts.awesome);
+        $("p").text(counts);
     };
     
     setInterval(function () {
